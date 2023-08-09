@@ -10,3 +10,5 @@ def load(name):
     return pygame.image.load(name)
 
 def display_score(score):
+    font = pygame.font.SysFont('Comic Sans MS', 30)
+    score_text = 'Score:' + str(score)
