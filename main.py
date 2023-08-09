@@ -12,3 +12,5 @@ def load(name):
 def display_score(score):
     font = pygame.font.SysFont('Comic Sans MS', 30)
     score_text = 'Score:' + str(score)
+    text = font.render(score_text, True, green)
+    screen.blit(text, [20,10])
