@@ -8,3 +8,5 @@ pygame.font.init()
 
 def load(name):
     return pygame.image.load(name)
+
+def display_score(score):
