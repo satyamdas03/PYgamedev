@@ -19,3 +19,5 @@ def display_score(score):
 
 def get_rand_offset():
     return 100*random.randint(5,15)
+
+# ongoing..
