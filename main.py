@@ -1,3 +1,5 @@
+import random
+
 import pygame
 
 screen_size = [360,600]
@@ -14,3 +16,6 @@ def display_score(score):
     score_text = 'Score:' + str(score)
     text = font.render(score_text, True, green)
     screen.blit(text, [20,10])
+
+def get_rand_offset():
+    return 100*random.randint(5,15)
