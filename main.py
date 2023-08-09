@@ -21,4 +21,4 @@ def get_rand_offset():
     return 100*random.randint(5,15)
 
 # ongoing..
-# refer repl.it
+# refer repl.it for help
