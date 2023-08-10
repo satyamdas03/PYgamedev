@@ -30,6 +30,7 @@ def set_s_position(idx, pos):
         c_positions[idx] += 5
 
 
-
+background = load(background.png)
+chicken = load(chicken.png)
 # ongoing..
 # refer repl.it for help
