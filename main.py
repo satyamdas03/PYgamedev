@@ -23,6 +23,11 @@ def get_rand_offset():
 
 def set_s_position(idx, pos):
     global  score
+    if c_positions[idx] > 600:
+        c_positions[idx] = 0 - get_rand_offset()
+        score= score+50
+    else:
+        c_positions[idx] += 5
 
 
 
