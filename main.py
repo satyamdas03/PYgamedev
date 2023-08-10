@@ -30,9 +30,9 @@ def set_s_position(idx, pos):
         c_positions[idx] += 5
 
 
-background = load(background.png)
-chicken = load(chicken.png)
-user = load(user.png)
+background = load()
+chicken = load()
+user = load()
 c_positions = [0-get_rand_offset(), 0-get_rand_offset(), 0]
 # ongoing
 # refer repl.it for help
