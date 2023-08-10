@@ -20,5 +20,11 @@ def display_score(score):
 def get_rand_offset():
     return 100*random.randint(5,15)
 
+
+def set_s_position(idx, pos):
+    global  score
+
+
+
 # ongoing..
 # refer repl.it for help
