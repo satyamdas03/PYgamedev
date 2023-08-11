@@ -51,7 +51,8 @@ while keep_alive:
     set_s_position(2,280)
 
     screen.blit(background, [0, 0])
-
+    screen.blit(chicken, [40, c_positions[0]])
+    screen.blit(chicken, [160, c_positions[1]])
 
 # ongoing
 # refer repl.it for help
