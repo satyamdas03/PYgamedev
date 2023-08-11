@@ -46,5 +46,9 @@ while keep_alive:
     elif keys[pygame.K_LEFT] and user_x>0:
         user_x = user_x-10
 
+    set_s_position(0,40)
+    set_s_position(1,160)
+    set_s_position(2,280)
+
 # ongoing
 # refer repl.it for help
