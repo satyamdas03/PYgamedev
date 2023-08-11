@@ -34,5 +34,10 @@ background = load()
 chicken = load()
 user = load()
 c_positions = [0-get_rand_offset(), 0-get_rand_offset(), 0]
+
+keep_alive = True
+clock = pygame.time.Clock()
+
+
 # ongoing
 # refer repl.it for help
