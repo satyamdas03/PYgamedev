@@ -41,6 +41,10 @@ clock = pygame.time.Clock()
 while keep_alive:
     pygame.event.get()
     keys= pygame.key.get_pressed()
+    if keys[pygame.K_RIGHT] and user_x<300:
+        user_x = user_x+10
+    elif keys[pygame.K_LEFT] and user_x>0:
+        user_x = user_x-10
 
 # ongoing
 # refer repl.it for help
