@@ -53,6 +53,7 @@ while keep_alive:
     screen.blit(background, [0, 0])
     screen.blit(chicken, [40, c_positions[0]])
     screen.blit(chicken, [160, c_positions[1]])
+    screen.blit(chicken, [280, c_positions[2]])
 
 # ongoing
 # refer repl.it for help
