@@ -50,5 +50,8 @@ while keep_alive:
     set_s_position(1,160)
     set_s_position(2,280)
 
+    screen.blit(background, [0, 0])
+
+
 # ongoing
 # refer repl.it for help
