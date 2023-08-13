@@ -70,6 +70,9 @@ while keep_alive:
         print('crash 2', user_x)
         score = score - 50
 
+    pygame.display.update()
+    clock.tick(60)
+
 
 # ongoing
 # refer repl.it for help
