@@ -66,6 +66,8 @@ while keep_alive:
         print('crash 3', user_x)
         score = score - 50
 
+    if c_positions[1] > 500 and user_x > 100 and user_x < 200:
+        print('crash 2', user_x)
 
 
 # ongoing
