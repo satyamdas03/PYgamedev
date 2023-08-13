@@ -55,6 +55,9 @@ while keep_alive:
     screen.blit(chicken, [160, c_positions[1]])
     screen.blit(chicken, [280, c_positions[2]])
 
+    display_score(score)
+    screen.blit(user, [user_x, 500])
+
 # ongoing
 # refer repl.it for help
 # to complete it within a week
