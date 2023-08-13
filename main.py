@@ -58,6 +58,16 @@ while keep_alive:
     display_score(score)
     screen.blit(user, [user_x, 500])
 
+    if c_positions[0] > 500 and user_x < 100:
+        print('crash 1', user_x)
+        score = score - 50
+
+    # if c_positions[2] > 500 and user_x > 200:
+    #     print('crash 3', user_x)
+    #     score = score - 50
+
+
+
 # ongoing
 # refer repl.it for help
 # to complete it within a week
