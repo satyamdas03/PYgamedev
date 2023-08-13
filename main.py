@@ -62,9 +62,9 @@ while keep_alive:
         print('crash 1', user_x)
         score = score - 50
 
-    # if c_positions[2] > 500 and user_x > 200:
-    #     print('crash 3', user_x)
-    #     score = score - 50
+    if c_positions[2] > 500 and user_x > 200:
+        print('crash 3', user_x)
+        score = score - 50
 
 
 
